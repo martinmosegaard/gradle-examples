@@ -1,1 +1,9 @@
+# Generated files in the Gradle projects
 .gradle
+
+# Output folders in the producer project
+projects/producer/build
+projects/producer/out
+
+# Output folders in the consumer project
+projects/consumer/build
