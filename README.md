@@ -1,6 +1,18 @@
 # gradle-examples
 
-Examples of using Gradle for dependency management.
+This example shows how to use Gradle for dependency management. It contains two small projects: A producer that
+publishes an artifact to Artifactory and a consumer that depends on and downloads the artifact.
+
+Docker is used to run Artifactory.
+
+The example has three parts:
+
+- Start an Artifactory server
+- Use Gradle to publish a versioned artifact in the first project
+- Use Gradle to consume the versioned artifact in the second project
+
+The example uses a Gradle plugin called
+[VersionedBinaryArtifacts](https://github.com/Praqma/VersionedBinaryArtifacts) made by Praqma.
 
 ## Usage
 
